@@ -1,0 +1,16 @@
+/* $colores: rgba(209, 78, 159, 0.356), rgb(63, 24, 24), rgb(156, 16, 16),
+  rgb(202, 60, 138), rgb(145, 34, 145);
+
+$maps: (
+  facebook: blue,
+  instagram: violet,
+  youtube: red,
+  border-top: 2px solid pink,
+  boder-bottom: 4px dotted black,
+);
+
+.redes {
+  background-color: map-get($maps, youtube);
+  border-bottom: map-get($maps, border-top);
+}
+ */

@@ -1,0 +1,23 @@
+/* @mixin condicion($colorIf, $fontIf) {
+  background-color: $colorIf;
+
+  @if $fontIf == 20px {
+    background-color: white;
+  } @else {
+    background-color: yellow;
+  }
+
+  @if $colorIf == red {
+    border: 1px solid black;
+  } @else {
+    border: 4px dotted blue;
+  }
+} */
+
+/* .bg-condicion {
+  @include condicion(red);
+}
+
+.bg-footer {
+  @include condicion(blue);
+} */

@@ -1,0 +1,14 @@
+/* @mixin subtitulos($color, $font, $weight) {
+  font-size: $font;
+  color: $color;
+  font-weight: $weight;
+}
+
+.subtitle {
+  @include subtitulos(rgb(145, 34, 145), sans-serif, revert);
+}
+
+.subtitle-2{
+    @include subtitulos(red,Tahoma, revert)
+}
+ */
